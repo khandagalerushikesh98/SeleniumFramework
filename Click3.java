@@ -21,5 +21,6 @@ public class Click3 {
 		driver.switchTo().frame(gmail);
 		Actions action = new Actions(driver);
 		action.click(gmail).perform();
+		driver.close();
 	}
 }
